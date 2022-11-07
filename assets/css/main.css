@@ -390,7 +390,8 @@ html{
 .about{
   width: 100%;
   padding: 78px 0px;
-  background-color: rgb(235, 235 , 235);
+  background-color: #FFE53B;
+  background-image: linear-gradient(147deg, #FFE53B 0%, #fd3838 74%);
 }
 
 .box img{
@@ -887,7 +888,7 @@ a.read-more-btn:hover {
 }
 
 a.boxed-btn, a.obrdered-btn, .cart-btn {
-  border-radius: 50px;
+  border-radius: 4px;
 }
 
 .section-title h3 {
@@ -1512,7 +1513,7 @@ a.video-play-btn:hover {
 }
 
 .single-latest-news:hover .latest-news-bg {
-  opacity: 0.8;
+  opacity: 1;
 }
 
 a.tof-btn {
@@ -1536,17 +1537,20 @@ a.tof-btn:hover i {
 }
 
 .single-latest-news {
-  -webkit-box-shadow: 0 0 20px #dddddd;
-  box-shadow: 0 0 20px #dddddd;
+  -webkit-box-shadow: 0 0 8px #dddddd;
+  box-shadow: 0 0 8px #dddddd;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
 }
 
-.single-latest-news:hover {
-  -webkit-box-shadow: 0 0 40px #dddddd;
-  box-shadow: 0 0 40px #dddddd;
-}
+  .single-latest-news:hover {
+    transition: all 0.2s ease-out;
+    box-shadow: 0px 4px 20px rgba(38, 38, 38, 0.2);
+    top: -4px;
+    border: 1px solid #cccccc;
+    background-color: white;
+  }
 
 .single-logo-item {
   -webkit-transition: 0.3s;
@@ -2850,6 +2854,10 @@ ul.social-link-team li a {
   color: #fff;
 }
 
+.single-product-item{
+  height: 550px;
+}
+
 .single-product-item {
   margin-bottom: 30px;
 }
@@ -3171,8 +3179,11 @@ table.order-details tbody td {
 
 
 .blog-post .single-product-item:hover {
-  -webkit-box-shadow: none;
-  box-shadow: none;
+  transition: all 0.2s ease-out;
+  box-shadow: 0px 4px 20px rgba(38, 38, 38, 0.2);
+  top: -4px;
+  border: 0px solid #cccccc;
+  background-color: white;
 }
 .blog-post .single-product-item .p {
   margin-right: 2px;
@@ -3181,17 +3192,18 @@ table.order-details tbody td {
   margin: 5px;
 }
 .blog-post .single-product-item{
-  -webkit-box-shadow: 0 0 20px #e4e4e4;
-  box-shadow: 0 0 20px #e4e4e4;
+  -webkit-box-shadow: 0 0 8px #dddddd;
+  box-shadow: 0 0 8px #dddddd;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 1s;
   padding-bottom: 50px;
   border-radius: 5px;
-  transition: box-shadow .2s,-webkit-box-shadow .2s;
   display: flex;
   flex-direction: column;
   text-align: center;
   width: 90%;
   margin: 3rem 2rem;
-  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
 }
 
 /* -----------------------------------------------------------------------------*/
