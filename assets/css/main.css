@@ -71,7 +71,7 @@ html{
 	height: 450px;
   margin-bottom: 40px;
 	border-radius: 10px;
-	background-color: #fff;
+	background-color: black;
 	border: 2px solid #ddd;
 	font-size: 18px;
 	overflow: hidden;
@@ -99,7 +99,7 @@ html{
 	height: 370px;
   margin-bottom: 40px;
 	border-radius: 10px;
-	background-color: #fff;
+	background-color: black;
 	border: 2px solid #ddd;
 	font-size: 18px;
 	overflow: hidden;
@@ -188,6 +188,32 @@ html{
 	left: -55px;
 	height: 140%;
 	width: 130px;
+	transform: rotate(8deg);
+}
+.projcard-textbox1::before,
+.projcard-textbox1::after {
+	content: "";
+	position: absolute;
+	display: block;
+	background: #ff0000bb;
+	background: black;
+	top: -20%;
+	left: -55px;
+	height: 140%;
+	width: 140px;
+	transform: rotate(8deg);
+}
+.projcard-textbox3::before,
+.projcard-textbox3::after {
+	content: "";
+	position: absolute;
+	display: block;
+	background: #ff0000bb;
+	background: black;
+	top: -20%;
+	left: -55px;
+	height: 140%;
+	width: 140px;
 	transform: rotate(8deg);
 }
 .projcard:nth-child(2n) .projcard-textbox::before {
@@ -1518,10 +1544,8 @@ a.tof-btn:hover i {
 }
 
 .single-latest-news:hover {
-  -webkit-box-shadow: 0 0 0;
-  box-shadow: 0 0 0;
-  -webkit-box-shadow: none;
-  box-shadow: none;
+  -webkit-box-shadow: 0 0 40px #dddddd;
+  box-shadow: 0 0 40px #dddddd;
 }
 
 .single-logo-item {
@@ -2074,6 +2098,7 @@ p.excerpt {
 }
 
 .single-latest-news {
+  height:540px;
   margin-bottom: 30px;
 }
 
