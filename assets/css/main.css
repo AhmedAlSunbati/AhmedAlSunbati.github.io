@@ -394,7 +394,7 @@ html{
 }
 
 .about-text p{
-  color:rgb(93, 20, 124);
+  color:rgb(8, 8, 8);
   letter-spacing: 1px;
   line-height: 28px;
   font-size: 18px;
@@ -892,7 +892,7 @@ a.boxed-btn, a.obrdered-btn, .cart-btn {
 }
 
 .section-title {
-  margin-bottom: 10px;
+  margin-bottom: 50px;
 }
 
 
@@ -2028,7 +2028,9 @@ div.owl-controls, .owl-controls div {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
-
+.latest-news{
+  padding-top: 90px;
+}
 .single-latest-news h3 {
   font-size: 20px;
   line-height: 1.25em;
@@ -2414,6 +2416,7 @@ blockquote em{
 .cart-banner {
   background-color: #FFE53B;
   background-image: linear-gradient(147deg, #FFE53B 0%, #fd3838 74%); 
+  padding-bottom: 20px;
 }
 .image img{
   height: 400px;
