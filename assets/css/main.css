@@ -7,6 +7,9 @@ Author URI: https://imransdesign.com/
 Version: 1.0
 */
 /*------------------------------------------------*/
+html{
+  scroll-behavior: smooth;
+}
 .container .owl-nav{
   position: absolute;
   top: 0%;
@@ -2197,14 +2200,14 @@ blockquote em{
 }
 .cart-banner .image-column {
   position: relative;
-  margin-top: 40px;
+  margin-top: 0px;
 
 }
 
 
 .cart-banner .content-column {
   position: relative;
-  padding-top: 40px;
+  padding-top: 0px;
 }
 
 .cart-banner .content-column h3 {
@@ -2225,83 +2228,11 @@ blockquote em{
   margin-bottom: 25px;
 }
 
-.time-counter {
-  position: relative;
-  margin-bottom: 25px;
-}
-
-.time-counter .time-countdown {
-  position: relative;
-}
-
-.time-countdown .counter-column {
-  position: relative;
-  display: inline-block;
-  margin: 0px 0px 5px;
-  font-size: 13px;
-  line-height: 1em;
-  padding: 8px 20px 14px;
-  text-transform: capitalize;
-  text-align: center;
-  border: 2px solid #F28123;
-}
-
-.time-countdown .counter-column .count {
-  position: relative;
-  display: block;
-  font-size: 30px;
-  line-height: 1.4em;
-  padding: 0px 0px;
-  color: #F28123;
-  font-weight: 700;
-  letter-spacing: 1px;
-}
-
 /* -----------------------------------------------------------------------------
 
 # Testimonial Styles
 
 ----------------------------------------------------------------------------- */
-.client-avater {
-  margin-bottom: 20px;
-}
-
-.client-meta h3 {
-  font-size: 20px;
-  font-weight: 600;
-}
-
-.client-meta h3 span {
-  display: block;
-  font-size: 70%;
-  margin-top: 10px;
-  color: #051922;
-  font-weight: 600;
-  opacity: 0.5;
-}
-
-p.testimonial-body {
-  font-size: 17px;
-  font-style: italic;
-  width: 700px;
-  margin: 0 auto;
-  line-height: 1.8;
-  color: #999999;
-  margin-top: 20px;
-}
-
-.last-icon {
-  margin-top: 20px;
-  font-size: 25px;
-  opacity: 0.3;
-}
-
-.client-avater img {
-  max-width: 100px;
-  border-radius: 50%;
-  margin: 0 auto;
-}
-
 /* -----------------------------------------------------------------------------
 
 # About Styles
