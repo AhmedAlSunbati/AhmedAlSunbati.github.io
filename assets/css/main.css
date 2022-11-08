@@ -7,6 +7,44 @@ Author URI: https://imransdesign.com/
 Version: 1.0
 */
 /*------------------------------------------------*/
+/*----------blog-read-more---------------*/
+.blog-read-more {
+  font-family: 'Poppins', sans-serif;
+  display: inline-block;
+  background-color: #fff;
+  color: #051922;
+  padding: 10px 20px;
+  border: none;
+}
+
+.blog-read-more i {
+  margin-right: 5px;
+}
+
+.single-product-form .blog-read-more {
+  margin-bottom: 15px;
+}
+
+.blog-read-more:focus {
+  outline: none;
+}
+
+a.boxed-btn, a.obrdered-btn, .blog-read-more {
+  border-radius: 4px;
+}
+
+.blog-read-more {
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.blog-read-more:hover {
+  background-color: #051922;
+  color: #F28123;
+}
+
+/*----------blog-read-more---x------------*/
 html{
   scroll-behavior: smooth;
 }
@@ -305,12 +343,13 @@ html{
 
 .publications{
   background-color: #FFE53B;
-  background-image: linear-gradient(147deg, #FFE53B 0%, #fd3838 74%);
+  background-image: linear-gradient(147deg, #FE5F75 0%, #FC9842 74%);
 }
 /*-------------------------------------- Publications & Books -----------------------------*/
 /*-------------------------------------- button 35 -----------------------------*/
 
 .read-more {
+  font-family: 'Poppins', sans-serif;
   align-items: center;
   background-color: rgb(255, 255, 255);
   border-radius: 12px;
@@ -339,7 +378,10 @@ html{
   touch-action: manipulation;
 }
 .read-more:hover {
-  box-shadow: #121212 0 0 0 3px, transparent 0 0 0 0;
+  box-shadow: #121212 0 0 0 0px, transparent 0 0 0 0;
+  background-color: #051922;
+  color: #F28123;
+  transition: background-color 0.4s, color 0.4s;
 }
 
 .read-more:focus {
@@ -414,7 +456,7 @@ html{
   width: 100%;
   padding: 78px 0px;
   background-color: #FFE53B;
-  background-image: linear-gradient(147deg, #FFE53B 0%, #fd3838 74%);
+  background-image: linear-gradient(147deg, #FE5F75 0%, #FC9842 74%);
 }
 
 .box img{
