@@ -2181,6 +2181,31 @@ p.excerpt {
   margin-bottom: 20px;
 }
 
+.what-is-a-myth-bg{
+  background:url("../img/what-is-a-myth.png");
+  background-size:cover;
+  height:110vh;
+  display: flex;
+  justify-content: center;
+}
+.what-is-myth-bg {
+  background:url("../img/what-is-a-myth.png");
+  border-radius: 20px;
+  background-size:cover;
+  height:110vh;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.blog-imgs img{
+  border-radius: 20px;
+  background-size:cover;
+  height:90vh;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
 .pagination-wrap {
   margin-top: 40px;
 }
