@@ -7,6 +7,38 @@ Author URI: https://imransdesign.com/
 Version: 1.0
 */
 /*------------------------------------------------*/
+/*------------ Scrolling-effect --------------------*/
+.text-scroll{
+  flex:1;
+  padding:5rem;
+  font-size: 1.2rem;
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 0.5s ease-in-out;
+}
+
+.image{
+  flex:1;
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 0.5s ease-in-out;
+}
+
+
+.image img{
+  width: 100%;
+  object-fit: cover;
+  padding:5rem;
+}
+
+.push-right{
+  opacity: 0;
+  transform: translateX(50px);
+}
+.push-left{
+  opacity: 0;
+  transform: translateX(-50px);
+}
 /*------------academics------------*/
 .bontainer{
   width: 1200px;
