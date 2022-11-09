@@ -36,6 +36,7 @@
 	<link rel="stylesheet" href="assets/css/responsive.css">
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
+
 </head>
 <body>
 	
@@ -48,6 +49,7 @@
     <!--PreLoader Ends-->
 	
 	<!-- header -->
+	<header>
 	<div class="top-header-area" id="sticker">
 		<div class="container">
 			<div class="row">
@@ -64,7 +66,7 @@
 						<!-- menu start -->
 						<nav class="main-menu">
 							<ul>
-								<li class="current-list-item"><a href="#Home">Home</a></li>
+								<li><a href="#Home" class="current-list-item">Home</a></li>
 								<li><a href="#about">About Me</a></li>
 								<li><a href="#my_projects">My Projects</a></li>
 								<li><a href="#publications" >Publications & Books</a></li>
@@ -84,13 +86,14 @@
 			</div>
 		</div>
 	</div>
+</header>
 	<!-- end header -->
 	
 
 	<!-- hero area -->
-	<section class="site-title">
+	<section class="site-title" id="Home">
 	<div class="hero-area hero-bg">
-		<div class="container" id="Home">
+		<div class="container">
 			<div class="row">
 				<div class="col-lg-9 offset-lg-2 text-center">
 					<div class="hero-text">
@@ -102,12 +105,12 @@
 			</div>
 		</div>
 	</div>
-</section>
+	</section>
 	<!-- end hero area -->
 
 	<!-- features list section -->
-	<section class="nbout">
-		<section class="about" id="about">
+	<section class="nbout" id="about">
+		<section class="about">
 			<div class="main">
 				<div class="wrapper">
 					<div class="box"  data-aos="fade-right" data-aos-duration="800">
@@ -195,9 +198,9 @@
 	<!-- end features list section -->
 
 	<!-- product section -->
-	<section class="projects">
+	<section class="projects" id="my_projects">
 	<div class="product-section mt-150 mb-150">
-		<div class="container" id="my_projects">
+		<div class="container">
 			<div class="row">
 				<div class="col-lg-8 offset-lg-2 text-center">
 					<div class="section-title" data-aos="zoom-in" data-aos-duration="600">	
@@ -327,6 +330,7 @@
 
 
 	<!-- latest news -->
+	<section id="blog">
 	<div class="latest-news pt-150 pb-150">
 		<div class="container">
 
@@ -396,6 +400,7 @@
 			</div>
 		</div>
 	</div>
+	</section>
 	<!-- end latest news -->
 
 
@@ -451,6 +456,25 @@
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<script>
 		AOS.init();
+	</script>
+	<script>
+		let section = document.querySelectorAll('section');
+		let navLinks = document.querySelectorAll('header nav ul li a');
+		window.onscroll = () =>{
+			section.forEach(sec =>{
+				let top = window.scrollY;
+				let offset = sec.offsetTop;
+				let height = sec.offsetHeight;
+				let id = sec.getAttribute('id');
+
+				if(top >= offset && top < offset + height){
+					navLinks.forEach(links =>{
+						links.classList.remove('current-list-item');
+						document.querySelector('header nav ul li a[href*=' + id +']').classList.add('current-list-item');
+					});
+				};
+			});
+		};
 	</script>
 </body>
 </html>

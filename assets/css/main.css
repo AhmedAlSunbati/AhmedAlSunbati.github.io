@@ -7,6 +7,9 @@ Author URI: https://imransdesign.com/
 Version: 1.0
 */
 /*------------------------------------------------*/
+.main-menu a:hover{
+  color: #F28123;
+}
 /*------------ Scrolling-effect --------------------*/
 .text-scroll{
   flex:1;
@@ -1358,7 +1361,7 @@ nav.main-menu ul ul.sub-menu li a {
   font-weight: 600;
 }
 
-nav.main-menu ul li.current-list-item > a {
+nav.main-menu ul a.current-list-item  {
   color: #F28123;
 }
 
