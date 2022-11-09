@@ -30,7 +30,7 @@
 	<link rel="stylesheet" href="assets/css/main.css">
 	<!-- responsive -->
 	<link rel="stylesheet" href="assets/css/responsive.css">
-
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 	
@@ -133,12 +133,12 @@
 				<div class="col-lg-4">
 					<div class="sidebar-section">
 						<div class="recent-posts">
-							<h4>Recent Posts</h4>
+							<h4 data-aos="fade-left">Recent Posts</h4>
 							<ul>
-								<li><a href="death-socrates.html">Death of Socrates</a></li>
-								<li><a href="descartes-first.html">Descartes' First Meditation</a></li>
-								<li><a href="descartes-second.html">Descartes' Second Meditation</a></li>
-								<li><a href="what-is-a-myth.html">What Is A Myth?</a></li>
+								<li><a href="death-socrates.html" data-aos="fade-left" data-aos-delay="200">Death of Socrates</a></li>
+								<li><a href="descartes-first.html" data-aos="fade-left" data-aos-delay="300">Descartes' First Meditation</a></li>
+								<li><a href="descartes-second.html" data-aos="fade-left" data-aos-delay="400">Descartes' Second Meditation</a></li>
+								<li><a href="what-is-a-myth.html" data-aos="fade-left" data-aos-delay="500">What Is A Myth?</a></li>
 							</ul>
 						</div>
 					
@@ -200,6 +200,10 @@
 	<script src="assets/js/sticker.js"></script>
 	<!-- main js -->
 	<script src="assets/js/main.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
 
 </body>
 </html>
