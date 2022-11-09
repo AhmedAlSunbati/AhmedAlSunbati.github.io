@@ -535,6 +535,7 @@ html{
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  transition: 0.4s;
 }
 .read-more:hover {
   box-shadow: #121212 0 0 0 0px, transparent 0 0 0 0;
@@ -598,18 +599,24 @@ html{
   box-shadow: inset 0 50px rgba(255, 255, 255, 0.1),
   inset 2px -15px 30px rgba(0, 0, 0, 0.4),
   2px 2px 5px rgba(0, 0, 0, 0.3);
-  padding: 25px;
+  padding: 10px;
   border-radius: 50%;
   text-align: center;
   margin: 0 20px;
-  transition: all 0.5s ease;
+  transition: 0.5s;
 }
 .box img{
   width: 200px;
   border-radius: 50%;
+  transition: 0.5s;
 }
 .box:hover{
   transform: scale(1.1);
+  transition: 0.3s;
+}
+.box img:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
 }
 .about{
   width: 100%;
