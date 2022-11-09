@@ -306,9 +306,14 @@ html{
 }
 .projcard:hover {
 <<<<<<< HEAD
+<<<<<<< HEAD
     box-shadow: 0 34px 32px -33px rgba(0, 0, 0, .18);
     transform: translate(0px, -3px);
     transition: 0.3s;
+=======
+	box-shadow: 0 34px 32px -33px rgba(0, 0, 0, .18);
+	transform: translate(0px, -3px);
+>>>>>>> parent of 8e4f2db (Update main.css)
 =======
 	box-shadow: 0 34px 32px -33px rgba(0, 0, 0, .18);
 	transform: translate(0px, -3px);
