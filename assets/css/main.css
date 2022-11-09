@@ -307,6 +307,7 @@ html{
 .projcard:hover {
     box-shadow: 0 34px 32px -33px rgba(0, 0, 0, .18);
     transform: translate(0px, -3px);
+    transition: 0.3s;
 }
 .projcard::before {
     content: "";
