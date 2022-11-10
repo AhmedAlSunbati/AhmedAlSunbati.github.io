@@ -608,7 +608,6 @@ html{
 .box img{
   width: 200px;
   border-radius: 50%;
-  transition: 0.5s;
 }
 .box:hover{
   transform: scale(1.1);
