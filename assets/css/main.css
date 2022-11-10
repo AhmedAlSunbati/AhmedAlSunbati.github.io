@@ -266,7 +266,7 @@ html{
     position: relative;
     width: 100%;
     height: 450px;
-  margin-bottom: 40px;
+    margin-bottom: 40px;
     border-radius: 10px;
     background-color: black;
     border: 2px solid #ddd;
@@ -614,10 +614,7 @@ html{
   transform: scale(1.1);
   transition: 0.3s;
 }
-.box img:hover{
-  transform: scale(1.1);
-  transition: 0.5s;
-}
+
 .about{
   width: 100%;
   padding: 78px 0px;
