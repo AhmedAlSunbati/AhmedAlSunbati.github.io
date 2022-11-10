@@ -448,8 +448,8 @@ html{
   padding-left: -100px;
 }
 .blog-bar {
-  padding-top:0px;
-  transform: translateY(-12px);
+    padding-top:0px;
+    transform: translateY(-12px);
     left: 0px;
     width: 349px;
     height: 5px;
