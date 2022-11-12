@@ -13,15 +13,7 @@ Version: 1.0
   overflow: hidden;
 }
 
-@media only screen and (max-width: 600px) {
-  .bontainer {
-    display: block;
-    min-height: 100px;
-  }
-  .cbard {
-    width: 100px;
-  }
-}
+
 /*------------------------------------------------*/
 .main-menu a:hover{
   color: #F28123;
