@@ -18,6 +18,9 @@ Version: 1.0
     margin-bottom: 60px;
     margin-top: 60px;
   }
+  .about-text h1{
+    line-height: 50px;
+  }
 }
 /*------------------------------------------------*/
 .main-menu a:hover{
@@ -661,7 +664,6 @@ html{
   font-size: 80px;
   text-transform: capitalize;
   margin-bottom: 10px;
-
 }
 
 .about-text p{
