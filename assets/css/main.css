@@ -7,7 +7,17 @@ Author URI: https://imransdesign.com/
 Version: 1.0
 */
 /*------------------------------------------------*/
-
+@media only screen and (max-width: 600px) {
+  .bontainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.cbard{
+margin-top: 10px;
+}
+}
 /*------------------------------------------------*/
 .owl-carousel {
   overflow: hidden;
@@ -25,7 +35,7 @@ Version: 1.0
 
 @media only screen and (min-width: 1000px) {
   .cbard3{
-    transform: translateX(70%);
+    transform: translateX(0%);
   }
 
 }
@@ -51,6 +61,12 @@ Version: 1.0
 
 
 /*------------------------------------------------*/
+.wrap {
+  display: flex;
+  flex-direction: row;
+
+
+}
 .main-menu a:hover{
   color: #F28123;
 }
