@@ -22,6 +22,19 @@ Version: 1.0
     line-height: 100px;
   }
 }
+
+@media only screen and (min-width: 1000px) {
+  .cbard3{
+    transform: translateX(70%);
+  }
+
+}
+
+@media only screen and (max-width: 1200px) {
+  .face h3 {
+    line-height: 90%;
+  }
+}
 /*------------------------------------------------*/
 .main-menu a:hover{
   color: #F28123;
@@ -78,7 +91,9 @@ Version: 1.0
   box-shadow: 0 15px 60px rgba(0,0,0, .5);
   border-radius: 15px;
 }
-
+.cbard3{
+  margin-bottom: 20px;
+}
 .cbard .face{
   position: absolute;
   bottom: 0;
@@ -280,8 +295,8 @@ html{
 }
 .projcard1 {
     position: relative;
-    width: 110%;
-    height: 490px;
+    width: 100%;
+    height: 430px;
     margin-bottom: 40px;
     border-radius: 10px;
     background-color: black;
@@ -294,8 +309,8 @@ html{
 }
 .projcard2 {
     position: relative;
-    width: 110%;
-    height: 430px;
+    width: 100%;
+    height: 400px;
   margin-bottom: 40px;
     border-radius: 10px;
     background-color: #fff;
@@ -308,8 +323,8 @@ html{
 }
 .projcard3 {
     position: relative;
-    width: 110%;
-    height: 390px;
+    width: 100%;
+    height: 350px;
   margin-bottom: 40px;
     border-radius: 10px;
     background-color: black;
@@ -354,7 +369,7 @@ html{
 }
 .projcard1-img {
     position: absolute;
-    height: 490px;
+    height: 510px;
     width: 470px;
     top: 0;
     left: 0;
@@ -511,7 +526,7 @@ html{
     z-index: 10;
     font-size: 13px;
     color: #424242;
-    height: 280px;
+    height: 320px;
     overflow: hidden;
     text-overflow: ellipsis;
 }
