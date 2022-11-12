@@ -2305,6 +2305,13 @@ div.owl-controls, .owl-controls div {
 .latest-news{
   padding-top: 90px;
 }
+.latest-news1{
+
+    background-color: #FFE53B;
+    background-image: linear-gradient(147deg, #FFE53B 0%, #fd3838 74%); 
+    padding-bottom: 20px;
+  
+}
 .single-latest-news h3 {
   font-size: 20px;
   line-height: 1.25em;
