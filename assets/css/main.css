@@ -35,6 +35,21 @@ Version: 1.0
     line-height: 90%;
   }
 }
+
+@media only screen and (max-width: 370px) {
+  .bontainer{
+    transform: translateX(-10%);
+  }
+
+}
+@media only screen and (max-width: 330px) {
+  .bontainer{
+    transform: translateX(-15%);
+  }
+
+}
+
+
 /*------------------------------------------------*/
 .main-menu a:hover{
   color: #F28123;
@@ -281,7 +296,7 @@ html{
 }
 .projcard {
     position: relative;
-    width: 100%;
+    width: 115%;
     height: 420px;
   margin-bottom: 40px;
     border-radius: 10px;
@@ -295,8 +310,8 @@ html{
 }
 .projcard1 {
     position: relative;
-    width: 100%;
-    height: 430px;
+    width: 115%;
+    height: 460px;
     margin-bottom: 40px;
     border-radius: 10px;
     background-color: black;
@@ -309,8 +324,8 @@ html{
 }
 .projcard2 {
     position: relative;
-    width: 100%;
-    height: 400px;
+    width: 115%;
+    height: 420px;
   margin-bottom: 40px;
     border-radius: 10px;
     background-color: #fff;
@@ -323,7 +338,7 @@ html{
 }
 .projcard3 {
     position: relative;
-    width: 100%;
+    width: 115%;
     height: 350px;
   margin-bottom: 40px;
     border-radius: 10px;
@@ -377,7 +392,7 @@ html{
 }
 .projcard2-img {
     position: absolute;
-    height: 410px;
+    height: 420px;
     width: 470px;
     top: 0;
     left: 0;
@@ -2357,6 +2372,12 @@ p.excerpt {
   color: #555;
 }
 
+.single-latest-news .read-more{
+  position: absolute;
+  bottom: 50px;
+  right: 34%;
+}
+
 .latest-news a.boxed-btn {
   margin-top: 80px;
 }
@@ -2365,9 +2386,13 @@ p.excerpt {
   text-align: center;
   margin-top: 15px;
   padding: 25px;
+  height: 44%;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
+  overflow: hidden;
 }
+
+
 
 .single-latest-news {
   height:540px;
@@ -3150,7 +3175,15 @@ ul.social-link-team li a {
 .single-product-item{
   height: 550px;
 }
+.single-product-item p{
+  overflow: hidden;
+}
 
+.single-product-item .cart-btn{
+  position: absolute;
+  bottom: 10px;
+  right: 37%;
+}
 .single-product-item {
   margin-bottom: 30px;
 }
