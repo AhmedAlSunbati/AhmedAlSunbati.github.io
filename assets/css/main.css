@@ -601,6 +601,8 @@ html{
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 50px;
+  margin-bottom: 40px;
 }
 .box{
 
@@ -624,7 +626,7 @@ html{
 }
 
 .about{
-  width: 90%;
+  width: 100%;
   padding: 78px 0px;
 
 }
@@ -642,7 +644,7 @@ html{
 }
 
 .main{
-  width: 1130px;
+  width: 100%;
   max-width: 95%;
   margin: 0 auto;
   display: flex;
@@ -650,11 +652,11 @@ html{
   justify-content: space-around;
 }
 
-.about-text h1{
+.about-text .h1-text{
   color: rgb(0, 0, 0);
   font-size: 80px;
   text-transform: capitalize;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 
 }
 
