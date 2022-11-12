@@ -13,7 +13,12 @@ Version: 1.0
   overflow: hidden;
 }
 
-
+@media only screen and (max-width: 600px) {
+  .wrapper{
+    margin-bottom: 60px;
+    margin-top: 60px;
+  }
+}
 /*------------------------------------------------*/
 .main-menu a:hover{
   color: #F28123;
@@ -602,7 +607,6 @@ html{
   justify-content: center;
   align-items: center;
   margin-top: 50px;
-  margin-bottom: 40px;
 }
 .box{
 
